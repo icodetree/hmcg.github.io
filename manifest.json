@@ -1,0 +1,71 @@
+{
+  "_vendor.js": {
+    "assets": [
+      "assets/css/materialdesignicons-webfont.eot",
+      "assets/css/materialdesignicons-webfont.woff2",
+      "assets/css/materialdesignicons-webfont.woff",
+      "assets/css/materialdesignicons-webfont.ttf"
+    ],
+    "css": [
+      "assets/css/vendor.css"
+    ],
+    "file": "assets/js/vendor.js",
+    "isDynamicEntry": true
+  },
+  "index.html": {
+    "dynamicImports": [
+      "_vendor.js",
+      "src/layouts/default/Default.vue",
+      "src/views/Home.vue"
+    ],
+    "file": "assets/index-843f4198.js",
+    "imports": [
+      "_vendor.js"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/css/materialdesignicons-webfont.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/css/materialdesignicons-webfont.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/css/materialdesignicons-webfont.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/css/materialdesignicons-webfont.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "src/assets/logo.svg": {
+    "file": "assets/css/logo.svg",
+    "src": "src/assets/logo.svg"
+  },
+  "src/layouts/default/Default.vue": {
+    "file": "assets/js/Default.js",
+    "imports": [
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/layouts/default/Default.vue"
+  },
+  "src/views/Home.vue": {
+    "assets": [
+      "assets/css/logo.svg"
+    ],
+    "file": "assets/js/Home.js",
+    "imports": [
+      "_vendor.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/views/Home.vue"
+  },
+  "vendor.css": {
+    "file": "assets/css/vendor.css",
+    "src": "vendor.css"
+  }
+}
